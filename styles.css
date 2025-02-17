@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/236x/87/0e/a9/870ea9ac4fef31c40b2253c6a6fe1b10.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+}
+.dark-mode {
+    background: linear-gradient(to right, #111112,#000000, #0a0a15);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/236x/87/0e/a9/870ea9ac4fef31c40b2253c6a6fe1b10.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.search-bar input {
+    padding: 5px;
+    width: 250px;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/736x/8b/29/6c/8b296c7735232fa1cbc69e415ac7c25b.jpg'); /* Add your image path here */
+    ; /* Ensure the image covers the entire banner */
+    background-position: center; /* Center the image */
+    height: 509px;
+    
+    color: #ffffff; /* Keep text white for contrast */
+    text-align: center;
+}
+
+/* Add some text shadow for better readability */
+.banner h2, 
+.banner h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the button to match the new color scheme */
+.banner button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 43px;
+    font-size: 16px;
+    font-weight: 1000;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/736x/8b/29/6c/8b296c7735232fa1cbc69e415ac7c25b.jpg'); /* Add your image path here */
+    background-position: center;
+    height: 509px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .scrolling-images {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.banner .scrolling-images img {
+    width: 100%;
+    height: auto;
+}
+.gapex 
+
+.banner button:hover {
+    background-color: #f8f8f8;
+}
+
+.new-user-offer {
+    text-align: center;
+    background-image: url('https://i.pinimg.com/236x/02/28/c5/0228c5b50fe1f8f19d0cd56515f62bf3.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    padding: 20px;
+    color: #342929; /* Ensure text is readable on the background */
+} 
+
+.new-user-offer h2 {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+.brands-section {
+    background-image: url('https://i.pinimg.com/236x/87/0e/a9/870ea9ac4fef31c40b2253c6a6fe1b10.jpg'); /* Add your image path here */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    padding: 20px;
+    padding: 20px;
+    color: #ffffff; /* Ensure text is readable on the background */
+    text-align: center;
+}
+.brands-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    white-space: nowrap;
+    color: #ffffff;
+    scroll-behavior: smooth;
+    
+}
+.brand-card {
+    flex: 0 0 auto;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+}
+.brand-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.nav-dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.nav-links {
+    list-style: none;
+    
+    display: flex;
+    gap: 15px;
+}
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    
+
+}
+/* Shop by Category Section */
+.shop-by-category {
+    background-image: url('https://i.pinimg.com/736x/26/ea/34/26ea34c2d369a33e0d726e8f4ded73c2.jpg'); /* Add your image path here */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 20px;
+            
+}
+
+.shop-by-category h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* Category Grid */
+.category-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Category Cards */
+.category-card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Category Label */
+.category-label {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(109, 108, 108, 0.9), rgba(142, 140, 140, 0.7));
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.category-label p {
+    margin: 5px 0;
+}
+
+/* Discount & Shop Now */
+.discount {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.shop-now {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 50px;
+    text-align: left;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+  }

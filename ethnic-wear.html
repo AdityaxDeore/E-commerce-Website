@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethnic Wear</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="script1.js"> <!-- Link to your CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #030303, #262a52,#000000);
+            transition: background 0.5s ease;
+        }
+        .dark-mode {
+            background: linear-gradient(to right, #111112,#000000, #0a0a15);
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('') no-repeat center center;
+            background-size: cover;
+            padding: 140px;
+            color: #f2f2f2;
+            font-stretch: expanded;
+            font-size: 60px;
+            font-weight: 1000;
+            gap: 20px;
+        }
+        .ethnic-wear-container {
+            display: grid;
+            color: linear-gradient(to right, #030303, #7e80a0,#000000);
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .ethnic-wear-item {
+            border: 1px solid #000000;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 15px; /* Added border-radius for curved corners */
+        }
+        .ethnic-wear-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            color: #f2f2f2;
+        }
+        .ethnic-wear-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px; /* Added border-radius for curved corners */
+            /* co property removed */
+        }
+        
+    
+        .toggle-button {
+            background: #000100;
+            color: #ffffff;
+            border: none; /* Corrected border property */
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 16px;
+            font-weight: 1000;
+        }
+        .toggle-button:hover {
+            background: #241919;
+        }
+
+        p {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 1000;
+        }
+        .toggle-button:hover {
+            background: #241919;
+        }
+        .top-nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+    .top-nav {
+        background-color: #333;
+        overflow: hidden;
+    }
+
+    .top-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-nav ul li {
+        float: left;
+    }
+
+    .top-nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .top-nav ul li a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .top-nav {
+        background-color: #333;
+        overflow: hidden;
+        transition: background-color 0.3s ease;
+    }
+
+    .top-nav.scrolled {
+        background-color: #000;
+    }
+
+    .top-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-nav ul li {
+        float: left;
+    }
+
+    .top-nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .top-nav ul li a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .ethnic-wear-item video {
+    display: none;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ethnic-wear-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/736x/8b/29/6c/8b296c7735232fa1cbc69e415ac7c25b.jpg'); /* Add your image path here */
+    background-position: center;
+    height: 509px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .scrolling-images {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.banner .scrolling-images img {
+    width: 100%;
+    height: auto;
+}
+</style>
+</style>
+    </style>
+</head>
+<body>
+    <header>
+        
+        </div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="toggle-button" onclick="DarkMode()">Dark Mode</button>
+    </header>
+    <header>
+        <div class="navbar">
+            TECHWEAR
+        </div>
+        <button class="toggle-button" onclick="DarkMode()">Dark Mode</button>
+    </header>
+    <main>
+        <div class="ethnic-wear-container">
+            
+            <div class="ethnic-wear-item">
+                <video src="https://assets.pinterest.com/ext/embed.html?id=628955904246943112" muted></video>
+                <img src="https://i.pinimg.com/474x/69/bc/0b/69bc0bab3ba9e60c0d9c25477416480e.jpg" alt="Sherwani">
+                <p>DROP</p>
+                <p>BLACX</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/22/93/dc/2293dc33c1a5911c8f22adde8273534e.jpg" alt="Lehenga">
+                <p>VETEMENTS</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/474x/b8/61/35/b861358d9a8ab44956fdc532e621916a.jpg" alt="Kurta">
+                <p>STONE ISLAND</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/474x/a7/a4/67/a7a46703c3efa16c84d61f870b49288a.jpg" alt="Saree">
+                <p>AG / 4 8 1</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/5b/0b/b5/5b0bb52d7fa12a535277d92de10bc917.jpg" alt="Kurta">
+                <p>AFTER-FEAR</p>
+                <p>GUCCI</p>
+            
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/474x/60/af/e8/60afe872b3297b198597af75c584ca83.jpg" alt="Saree">
+                <p>NIGHT TERRORS</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/ad/17/1c/ad171caefd0862c858be77d683a9fdc8.jpg" alt="Sherwani">
+                <p>BIBLY</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/55/c0/a5/55c0a547f9a49e91e0f91eba0b96f24d.jpg" alt="Lehenga">
+                <p>KUAKE RIP</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/07/14/2d/07142d290540ba5004f1b50e7b2cb5d8.jpg" alt="Kurta">
+                <p>GNOHEI</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/61/5b/d1/615bd1d5504237d378e7f2b2b29d0a32.jpg" alt="Saree">
+                <p>SUERM</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/26/a4/70/26a470c4b68f64744c38b51eddb9d60e.jpg" alt="Sherwani">
+                <p>THE NORTH FACE</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/474x/75/3a/0d/753a0ddec6ccc1599aa9e73c569fe776.jpg" alt="Lehenga">
+                <p>PHONE</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/78/a8/e6/78a8e64d18e54fd5b1733e79cd4ac31b.jpg" alt="Lehenga">
+                <p>GRACE</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/474x/d0/d0/f3/d0d0f30f915c3f6e90bcddf46cf6dbae.jpg" alt="Lehenga">
+                <p>NOCTA</p>
+            </div>
+            <div class="ethnic-wear-item">
+                <img src="https://i.pinimg.com/736x/17/2d/1b/172d1b3e9fdefdb407aee3b13ebc525d.jpg" alt="Lehenga">
+                <p> +</p>
+            </div>    
+            
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Online Store</p>
+    </footer>
+    <script>
+        function DarkMode() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
